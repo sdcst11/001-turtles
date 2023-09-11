@@ -1,85 +1,28 @@
 ## SDSS Computing Studies Python Assignment
-### Assignment #2b Working with Variables (Total Marks 7)
+### Basic Code in Python with Turtle Graphics
 
 Objectives:
-* to perform math operations with numerical value variables and then print the results
+* To become familiar with the terminal
+* To see the Python interpreter in action and exit it when necessary
 
-You will be using the mathematical operators listed:
+Introduction
+We will start by seeing how we can make some basic programming instructions using the Python interpeter.  You can do much of your work in the terminal.
+
+1. Right click on the tab that this file is in, and choose the "Open Preview" option. Note that this will open up this file in another tab, but with important formatting changes.
+2. Open a new terminal in Visual Studio Code
+3. Type in "py"  this will start a python session. You will recognize it by the prompt (where you type in commands) turning into a >>>
+4. Type exit()  Note that his is how you can exit from a python session. This is important because when we normally run programs from VSC, it will start a python session, and if one is open, it can't open another.  Knowing how to close a python session with exit() can be helpful
+5. Re-enter a python session and type in the following commands:
 ```
-+ addition. can concatenate (join) 2 strings
-- subtraction. 
-* multiplication. an integer can also multiply by a string
-/ division.  all answers are converted to floats even if you do integer / integer
-** exponents
-% modulus (shows the remainder when two numbers are divided)
+import turtle
+s = turtle.getscreen()
 ```
-
-Note:  When a math operation involves a float and an int, the evaluated expression will automatically be converted to a float.
-
-Perform the operations listed and then display the output using the print() command.  No other output is required other than the numerical result.
-
-**Note that in all of these programs, you MUST store your answer in a variable called "answer"**
-
-##### Task 1
-Open the assignment called a1.py
-There are two variables that have assigned values for x and y
-Display the sum of the two numbers (use addition)
-The answer should be calculated and stored in a variable called "answer"
-(1 points) 
-
-##### Task 2
-Open the assignment called a2.py
-There are two variables that have assigned values for x and y
-Display the difference of the two numbers (use subtraction)
-The answer should be calculated and stored in a variable called "answer"
-(1 points) 
-
-##### Task 3
-Copy the contents of a2.py and create a new file called a3.py that has the same content.
-There are two variables that have assigned values for x and y
-Display only the product of the two numbers (use multiplication)
-The answer should be calculated and stored in a variable called "answer"
-(1 points) 
-
-##### Task 4
-Copy the contents of a2.py and create a new file called a4.py that has the same content.
-There are two variables that have assigned values for x and y
-Display only the quotient of the two numbers (use division)
-The answer should be calculated and stored in a variable called "answer"
-(1 points) 
-
-##### Task 5
-Copy the contents of a2.py and create a new file called a5.py that has the same content.
-There are two variables that have assigned values for x and y
-Display only the modulus of the two numbers (use %)
-The answer should be calculated and stored in a variable called "answer"
-(1 points) 
-
-##### Task 6
-Copy the contents of a2.py and create a new file called a6.py that has the same content.
-There are two variables that have assigned values for x and y
-Display only the answer of x to the power of y.
-The answer should be calculated and stored in a variable called "answer"
-(1 points) 
-
-1 mark will be given for having the correct value stored into the variable "answer"
-
-##### Task 7
-Read through the file **example1.py** for information on using the "round()" command.
-* Open the file called a7.py
-* The program has a variable called F that will store a float value for the temperature in degrees Fahreneight
-* Set F to a value of 62.5
-* Do a calculation that converts the temperature to degrees C and stores it in a variable called C
-* Round the temperature in C to 1 decimal place and print the result
-
-##### Task 8
-Read through the file **example2.py** and **example3.py** for information on using the math module.
-Calculate the length of a hypotenuse given 2 variables
-Set the value of a to 5
-Set the value of b to 8
-
-Determine the length of the hypotenuse and store it into a variable called c
-print the value of c
-
-You may use either the ** operator or math.pow(x,y) for your exponents
-You may use either math.sqrt(x) or the exponent to the power of 0.5 for your square root
+6. A window opens up with a turtle that we can control.
+7. Let's create a turtle we can control using:
+```
+t = turtle.Turtle()
+t.forward(100)
+```
+8. The new turtle moves forward 100 pixels, dragging a pen behind it as it goes.
+9. Read through the document at https://realpython.com/beginners-guide-python-turtle/ and experiment with the turtle.
+10. Tomorrow, we will use the information in this document to draw a picture using the turtle!
