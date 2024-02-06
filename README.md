@@ -34,7 +34,8 @@ this will start a python session. You will recognize it by the prompt (where you
 5. Type 
 ```
 exit()
-```  Note that his is how you can exit from a python session. This is important because when we normally run programs from VSC, it will start a python session, and if one is open, it can't open another.  Knowing how to close a python session with exit() can be helpful
+```  
+Note that his is how you can exit from a python session. This is important because when we normally run programs from VSC, it will start a python session, and if one is open, it can't open another.  Knowing how to close a python session with exit() can be helpful
 6. Re-enter a python session and type in the following commands:
 ```
 import turtle
