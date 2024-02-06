@@ -75,6 +75,11 @@ Makes your turtle move faster.  Speed should be a number. Example: t.speed(4)
 t.pencolor(<color>)
 Changes the color of the line.  It should be a color in quotation marks. Example: t.pencolor("red")
 ```
+```
+t.setheading(<angle>)
+Sets the heading of the turtle to a specific degrees (0 is east, and increases counterclockwise.
+Example: t.setheading(0)
+```
 
 10. Typing in your commands one at a time can be very tedious, so we can add the commands to a file.  Create a new file from the main menu using commands File > New Text File.  Type the following into the window.  The commands should look familiar!
 ```
