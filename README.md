@@ -88,8 +88,8 @@ s = turtle.getscreen()
 ```
 input()
 ```
-Your program should look something like the contents of the file: 01.drawing.py
-13.  Create a drawing using only the command included in this file.  Remember that your turtle will always start facing east in the middle of the screen, and you may want to penup and move to a new location before you start drawing.
+13. Your program should look something like the contents of the file: 01.drawing.py
+14. Create a drawing using only the command included in this file.  Remember that your turtle will always start facing east in the middle of the screen, and you may want to penup and move to a new location before you start drawing.
 
 All finished? 
 Read through the document at https://realpython.com/beginners-guide-python-turtle/ and experiment with the turtle.
