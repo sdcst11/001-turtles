@@ -15,10 +15,26 @@ We will start by seeing how we can make some basic programming instructions usin
 Terminal > New Terminal
 ```
 3. The terminal is a command line environment.  You can see a "prompt" waiting for you to input a command.  Instead of a Graphical User Interface, everything is typed into the command line.  There are many commands for doing things like navigating around your computer, or viewing the contents of the local directory, or even modifying, deleting or copying files.  Sounds tedious, but there are some shortcuts!  Common ones:
+```
     a. Up/Down Arrows: scrolls through previous commands
     b. Tab - autocompletion
-4. Type in "py"  this will start a python session. You will recognize it by the prompt (where you type in commands) turning into a >>>
-5. Type exit()  Note that his is how you can exit from a python session. This is important because when we normally run programs from VSC, it will start a python session, and if one is open, it can't open another.  Knowing how to close a python session with exit() can be helpful
+```
+4. On a Windows computer, type in 
+```
+py
+```  
+On a Mac/Linux computer, type in
+```
+python3
+```
+this will start a python session. You will recognize it by the prompt (where you type in commands) turning into a 
+```
+>>>
+```
+5. Type 
+```
+exit()
+```  Note that his is how you can exit from a python session. This is important because when we normally run programs from VSC, it will start a python session, and if one is open, it can't open another.  Knowing how to close a python session with exit() can be helpful
 6. Re-enter a python session and type in the following commands:
 ```
 import turtle
